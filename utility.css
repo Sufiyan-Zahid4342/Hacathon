@@ -5,6 +5,10 @@
     /* background-color: #000000; */
     color: #160e0e;
     font-family: 'Poppins', sans-serif;
+   
+}
+.f-wrap{
+    flex-wrap: wrap;
 }
 body{
     background-color: #f1ebeb;
