@@ -1,0 +1,68 @@
+@media screen and (max-width: 370px) {
+
+    .main-page {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 5vw;
+      align-items: center;
+    }
+    .main-img{
+      width: 75vw;
+    }
+    .sec-1 {
+      width: 70vw;
+      margin-left: 5vw;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .sec-1 > h1 {
+      font-size: 4.9vw;
+      margin-bottom: 2.5vw;
+    }
+    .sec-1 > p {
+      font-size: 2.5vw;
+    }
+    .sec-1-button {
+      background-color: black;
+      color: white;
+      padding: 2vw 1vw;
+      border-radius: 0.8vw;
+      width: 25vw;
+      margin-top: 5vw;
+      
+    }
+    .two-boxes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 4vw;
+    }
+    .box-1 {
+      border-radius: 1.8vw;
+      display: flex;
+      width: 70vw;
+      border: 1px solid black;
+      padding: 3vw;
+      background-color: #b9ff66;
+      box-shadow: 0px 3px 2px black;
+      margin-top: 2vw;
+    }
+    .box-2 {
+      border-radius: 1.5vw;
+      display: flex;
+      width: 70vw;
+      border: 1px solid black;
+      padding: 3vw;
+      background-color: rgb(238, 238, 238);
+      box-shadow: 0px 3px 2px black;
+      margin-top: 3vw;
+    }
+    .card-image {
+      margin-left: 30vw;
+    }
+  }
